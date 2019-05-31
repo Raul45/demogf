@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Empresas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <script src="main.js"></script>
+    <style>
+    .jj{
+        position:relative;
+        margin-left: 40%;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="#">Go Freight</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto"> 
+                            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="empresas.html">Empresas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="transportistas.html">Transportistas</a>
+            </li>
+          
+          </ul>
+        </div>
+      </nav>
+
+      
+      <div class="pimg12">
+      </div>
+    </div>
+    <div class="ptext">
+        <br><br><br><br>
+      <span class="zz">
+        Registrate y gana con nosotros.
+    </span><br><br><br><br>
+      <span class="ss">
+        Comience a ganar dinero seguro y fácil.
+        </span><br><br><br><br>
+      
+    </div>
+      
+      <h1 class="text-center" id="change-it-now">Go Freight </h1>
+          <section class="section section-light">
+                <br>
+                <hr>
+                <br>
+                       <span class="zzz">
+                           Toma tus decisiones
+                       </span><br><br>
+                     
+                       <span class="sss">
+                         Toma las cargas que sean de tu convenencia.
+                                           </span>
+                                           <hr>
+                            <img src="img/kj.png">
+                                          <hr>      <br><br><br>
+                <span class="zzz">
+                    Elige entre nuestros transportes <br><br><br>
+                    <img src="img/yalav.jpg" width="70%" height="70%">
+                </span>
+    
+                                           </div>
+                                         </section>
+ 
+</span>
+          </div>
+        </section>
+        <section class="section section-light">
+            
+            
+             
+                                        </section>
+        <div class="pimg2">
+          <div class="ptext">
+            <span class="border trans">
+                <img src="img/logonegro.jpg" width="20%" height="20%">
+            </span>
+          </div>
+        </div>
+      
+        <section class="sectiondk">
+        <hr>
+          <span class="osc"><h2><i>GO FREIGHT</i></h2></span>
+         <hr>
+        </section>
+      
+        <div class="pimg3">
+          <div class="ptext">
+            <img src="img/logo.png">
+          </div>
+        </div>
+      
+        <div class="ff">
+         <center> <img src="img/fb.png" width="100px"height="100px"><img src="img/insta.png"width="100px"height="100px"></center>
+          <hr><br>
+          <span class="bb">
+            Para mas información por favor visite nuestras redes sociales</span><br>
+            <span class="bb">  o bien escribanos a: ayudaclientes@gofreight.com </span><br>
+            <span class="bb">  Atención a clientes las 24 horas del dia: 6188143030
+          </span><br><br><br>
+        </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      var scroll_start = 0;
+      var startchange = $('#change-it-now');
+      var offset = startchange.offset();
+
+      if(startchange.length){
+        $(document).scroll(function(){
+          scroll_start = $(this).scrollTop();
+
+          if(scroll_start>offset.top){
+            $('.navbar-custom').css('background-color', 'rgba(255, 255, 255, 0.9)');
+          }else{
+            $('.navbar-custom').css('background-color', ' #646060');
+          }
+        })
+      }
+    })
+  </script>
+
+</body>
+</html>

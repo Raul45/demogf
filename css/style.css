@@ -1,0 +1,181 @@
+    .navbar-custom{
+        background:  #646060 ;
+        opacity: 0,7;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .navbar-nav > li > a{
+        color: #fff;
+      }
+      .container{
+        padding-top: 80px;
+        height: 2000px;
+      }
+      body, html{
+        height:100%;
+        margin:0;
+        font-size:16px;
+        font-family:"Lato", sans-serif;
+        font-weight:400;
+        line-height:1.8em;
+        color:#666;
+      }
+      
+      .pimg1, .pimg2, .pimg3{
+        position:relative;
+        opacity:0.90;
+        background-position:center;
+        background-size:cover;
+        background-repeat:no-repeat;
+      
+        /*
+          fixed = parallax
+          scroll = normal
+        */
+        background-attachment:fixed;
+      }
+      
+      .pimg1{
+        background-image:url('../img/top_picture.jpg');
+        min-height:100%;
+        filter:brightness(0.8);
+      }
+      .pimg11{
+        position:relative;
+        opacity:0.90;
+        background-position:center;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-image:url('../img/top_picture1.jpg');
+        min-height:100%;
+        filter:brightness(0.8);
+      }
+      .pimg12{
+        position:relative;
+        opacity:0.90;
+        background-position:center;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-image:url('../img/car.jpeg');
+        min-height:100%;
+        filter:brightness(0.8);
+      }
+      .pimg22{
+        position:relative;
+        opacity:0.90;
+        background-position:center;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-image:url('../img/chs.jpeg');
+        min-height:100%;
+        filter:brightness(0.8);
+      }
+      
+      .pimg2{
+        background-image:url('../img/pexels-photo-592063.jpeg');
+        min-height:400px;
+      }
+      
+      .pimg3{
+        background-image:url('../img/image3.jpg');
+        min-height:400px;
+      }
+      
+      .section{
+        text-align:center;
+        padding:50px 80px;
+      }
+      .sectiondk{
+        background:#000000;
+        color: white;
+        text-align:center;
+        padding:50px 80px;
+      }
+      .section-light{
+        background:white;
+        color:#666;
+      }
+      
+      .section-dark{
+        background-color:white;
+        color: #989898;
+      }
+      
+      .ptext{
+        position:absolute;
+        top:35%;
+        width:100%;
+        text-align:center;
+        color:#000;
+        font-size:27px;
+        letter-spacing:8px;
+        text-transform:uppercase;
+      }
+      
+      .ptext .border{
+        background-color:#111;
+        color:#fff;
+        padding:20px;
+      }
+      
+      .ptext .border.trans{
+        background-color:transparent;
+      }
+      
+      @media(max-width:568px){
+        .pimg1, .pimg2, .pimg3, .pimg22, .pimg11{
+          background-attachment:scroll;
+        }
+      }
+      .ptext .zz{
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        color: white;
+        font-size: 63px;
+        text-transform: none;
+      }
+      .ptext .ss{
+        font-family: 'Quicksand', sans-serif;
+        font-weight: Regular;
+        color: white;
+        font-size: 23px;
+      }
+     .zzz{
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        color:Black;
+        font-size: 63px;
+        text-transform: none;
+      }
+    .sss{
+        font-family: 'Quicksand', sans-serif;
+        font-weight: Regular;
+        color: #989898;
+        font-size: 23px;
+      }
+     
+    
+      .ff{
+          position:relative;
+          margin-bottom:0px;
+          background: #ffb1b1 ;
+          opacity: 0,7;
+          
+      }
+      .bb{
+          position:relative;
+          margin-left: 35%;
+          color:black;
+      }
+      .osc{
+        font-family: 'Anton', sans-serif;
+        font-weight: bold;
+        color:orange;
+        font-size: 63px;
+        text-transform: none;
+      }
+      .imagen{
+        background: white;
+        position:absolute;
+        margin-left:10%;
+      }
+      

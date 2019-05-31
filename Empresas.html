@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Empresas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <script src="main.js"></script>
+    <style>
+    .jj{
+        position:relative;
+        margin-left: 40%;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="#">Go Freight</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto"> 
+                            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="empresas.html">Empresas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="transportistas.html">Transportistas</a>
+            </li>
+          
+          </ul>
+        </div>
+      </nav>
+
+      
+      <div class="pimg11">
+      </div>
+          <div class="ptext">
+            <span class="zz">
+                Camiones confiables cuando los necesites
+            </span><br>
+            <span class="ss">
+                Muchas empresas confían en GO FREIGHT para transportar sus productos, hablemos cómo podemos optimizar tu distribución.
+            </span><br><br><br><br>
+            
+          </div>
+      
+      <h1 class="text-center" id="change-it-now">Go Freight </h1>
+        <section class="sectionk">
+            <center><span class="ss">Elige el transporte de tu conveniencia</span><br><br></center>
+            <span class="jj">
+            <img src="img/s.jpg" width="20%" height="20%">
+          </span>
+            <br><br>
+            <center>
+         <span class="zz">
+             El camión correcto para todas tus entregas
+         </span> <br><br>
+        </center>
+          <span class="jj">
+        <img src="img/GetFileAttachment.jpg" width="20%" height="20%"><br><br><br>
+</span>
+          </div>
+        </section>
+        <section class="section section-light">
+            
+            
+               <br><br><br>
+                      <span class="zzz">
+                          Asesoria y Consultoria
+                      </span><br><br>
+                      <span class="sss">
+                        ¿TIENES UNA IDEA Y NO SABES COMO HACERLA FUNCIONAR?<br>
+                        Nosotros de podemos brindarte el apoya para que esa idea te genere un negocio sustentable <br>
+                        <img src="img/pymes2.png"> 
+                              <br><br><br>Go Freight te puede ayudar en promover el desarrollo integral de tu <br> 
+                              organización desde cero, así como fortalece las  áreas operativas. <br>
+                                <br>
+                                            - Planes y proyectos de Negocios para PYMES <br>
+                                            <br>
+                                            - Administración y dirección de empresas <br>
+                                            <br>
+                                            - Recursos humanos <br>
+                                            <br>
+                                            - Desarrollo empresarial <br>
+                                            <br>
+                                            - Emprendedores <br>
+                                            <br>
+                                            - Mercadotecnia <br>
+                                            <br>
+                                            - Calidad y productividad <br>
+                                            <br>
+                                            - Ventas <br>
+                                            <br>
+                                            - Logística <br>
+                                            <br>
+                                            - Producción <br>
+                                          </span>
+                                          </div><br><br><hr><br><br>
+                  <span class="zzz">¿Quién nos respalda?</span><br><br>
+                  <img src="img/3.jpg">
+                                        </section>
+        <div class="pimg2">
+          <div class="ptext">
+            <span class="border trans">
+                <img src="img/logonegro.jpg" width="20%" height="20%">
+            </span>
+          </div>
+        </div>
+      
+        <section class="sectiondk">
+        <hr>
+          <span class="osc"><h2><i>GO FREIGHT</i></h2></span>
+         <hr>
+        </section>
+      
+        <div class="pimg3">
+          <div class="ptext">
+            <img src="img/logo.png">
+          </div>
+        </div>
+      
+        <div class="ff">
+         <center> <img src="img/fb.png" width="100px"height="100px"><img src="img/insta.png"width="100px"height="100px"></center>
+          <hr><br>
+          <span class="bb">
+            Para mas información por favor visite nuestras redes sociales</span><br>
+            <span class="bb">  o bien escribanos a: ayudaclientes@gofreight.com </span><br>
+            <span class="bb">  Atención a clientes las 24 horas del dia: 6188143030
+          </span><br><br><br>
+        </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      var scroll_start = 0;
+      var startchange = $('#change-it-now');
+      var offset = startchange.offset();
+
+      if(startchange.length){
+        $(document).scroll(function(){
+          scroll_start = $(this).scrollTop();
+
+          if(scroll_start>offset.top){
+            $('.navbar-custom').css('background-color', 'rgba(255, 255, 255, 0.9)');
+          }else{
+            $('.navbar-custom').css('background-color', ' #646060');
+          }
+        })
+      }
+    })
+  </script>
+
+</body>
+</html>

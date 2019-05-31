@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+    <title>Go Freight</title>
+  </head>
+  <body>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
+          <a class="navbar-brand" href="#">Go Freight</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto"> 
+                              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="empresas.html">Empresas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="transportistas.html">Transportistas</a>
+              </li>
+            
+            </ul>
+          </div>
+        </nav>
+
+        
+        <div class="pimg1">
+        </div>
+            <div class="ptext">
+              <span class="zz">
+                  Tu proveedor confiable
+              </span><br>
+              <span class="ss">
+                de transporte de carga
+              </span><br><br><br><br>
+              <span class="ss">Empresas</span>&emsp; &emsp;<span class="ss">Transportes</span><br>
+              <button type="button" class="btn btn-outline-light"onclick="window.location.href='Empresas.html'">Envia</button>&emsp;&emsp;&emsp;&emsp;
+              <button type="button" class="btn btn-outline-light"onclick="window.location.href='Empresas.html'">Transporta</button>
+            
+            </div>
+        
+        <h1 class="text-center" id="change-it-now">Go Freight </h1>
+          <section class="section section-light">
+            
+            <img src="img/section1.jpg">
+            <div class="kls">
+              <img src="img/calendar-icon.png"><br> 
+           <br><br><br>
+                  <span class="zzz">
+                      En cualquier momento
+                  </span><br>
+                  <span class="sss">
+                      Prodas solicitar el mismo dia o programar los siguientes envíos de mercancía que necesites.               
+                       </span><br><br><br>
+            </div>
+          </section>
+        
+          <div class="pimg2">
+            <div class="ptext">
+              <span class="border trans">
+                  Automatiza tus pedidos
+              </span>
+            </div>
+          </div>
+        
+          <section class="section section-dark">
+          
+            <span class="zzz"><h2>Hazlo desde la comodidad de tu dispositivo favorito</h2></span>
+           <img src="img/section2.jpg">
+           <div class="ll">
+             <span class="sss">Disponible en Google Play, proximamente en AppStore</span><br><br>
+             <img src="img/gp.png" width="20%" height="10%"><img src="img/ios.png"width="20%" height="10%"><br>
+            <br>
+
+           </div>
+          </section>
+        
+          <div class="pimg3">
+            <div class="ptext">
+              <img src="img/logo.png">
+            </div>
+          </div>
+        
+          <div class="ff">
+           <center> <img src="img/fb.png" width="100px"height="100px"><img src="img/insta.png"width="100px"height="100px"></center>
+            <hr><br>
+            <span class="bb">
+              Para mas información por favor visite nuestras redes sociales</span><br>
+              <span class="bb">  o bien escribanos a: ayudaclientes@gofreight.com </span><br>
+              <span class="bb">  Atención a clientes las 24 horas del dia: 6188143030
+            </span><br><br><br>
+          </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        var scroll_start = 0;
+        var startchange = $('#change-it-now');
+        var offset = startchange.offset();
+
+        if(startchange.length){
+          $(document).scroll(function(){
+            scroll_start = $(this).scrollTop();
+
+            if(scroll_start>offset.top){
+              $('.navbar-custom').css('background-color', 'rgba(255, 255, 255, 0.9)');
+            }else{
+              $('.navbar-custom').css('background-color', ' #646060');
+            }
+          })
+        }
+      })
+    </script>
+  </body>
+</html>
